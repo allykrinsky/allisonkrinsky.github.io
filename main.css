@@ -1,0 +1,16 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    size: 24px;
+}
+
+.button {
+    background-color: #7ca7c4; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
