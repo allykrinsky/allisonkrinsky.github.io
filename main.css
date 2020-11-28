@@ -1,16 +1,15 @@
 h1{
-    font-family: 'Times New Roman', Times, serif;
     size: 24px;
+    align-content: center;
+    text-align: center;
 }
 
-.button {
-    background-color: #7ca7c4; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-  
+i {
+    align-content: center;
+}
+
+ .navbar navbar-expand-lg navbar-light bg-light {
+     align-content: center;
+ }
+
+ 
