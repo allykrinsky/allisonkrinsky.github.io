@@ -12,4 +12,6 @@ i {
      align-content: center;
  }
 
- 
+ .card {
+     padding: 8px;
+ }
