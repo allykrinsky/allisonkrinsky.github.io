@@ -4,8 +4,14 @@ h1{
     text-align: center;
 }
 
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 i {
     align-content: center;
+    font-size: xx-large;
+    color: cornflowerblue;
 }
 
  .navbar navbar-expand-lg navbar-light bg-light {
@@ -15,3 +21,5 @@ i {
  .card {
      padding: 8px;
  }
+
+ 
