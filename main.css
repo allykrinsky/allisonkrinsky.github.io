@@ -2,16 +2,26 @@ h1{
     size: 24px;
     align-content: center;
     text-align: center;
+    color: black;
 }
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('30566C26-D81C-4018-B60A-DE81FC4A4CAE.JPEG ');
+     /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 i {
     align-content: center;
     font-size: xx-large;
-    color: cornflowerblue;
+    color: black;
 }
 
  .navbar navbar-expand-lg navbar-light bg-light {
@@ -20,6 +30,8 @@ i {
 
  .card {
      padding: 8px;
+     opacity: .8;
  }
 
  
+
