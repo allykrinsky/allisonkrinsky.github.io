@@ -6,7 +6,7 @@ h1{
 }
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url('30566C26-D81C-4018-B60A-DE81FC4A4CAE.JPEG ');
      /* Full height */
     height: 100%;
@@ -14,8 +14,7 @@ body {
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;  
 }
 
 i {
@@ -24,14 +23,15 @@ i {
     color: black;
 }
 
- .navbar navbar-expand-lg navbar-light bg-light {
-     align-content: center;
- }
 
  .card {
      padding: 8px;
-     opacity: .8;
+     background: rgba(243, 241, 241, 0.5);
+     
  }
 
+#list-group-item {
+    background: rgba(243, 241, 241, 0.5);
+ }
  
 
