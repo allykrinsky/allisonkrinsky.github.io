@@ -6,8 +6,8 @@ h1{
 }
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url('30566C26-D81C-4018-B60A-DE81FC4A4CAE.JPEG ');
+    font-family: Georgia, 'Times New Roman', Times, serif;;
+    background-image: url('img/background.JPEG');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,6 +29,29 @@ i {
 
 #list-group-item {
     background: rgba(243, 241, 241, 0.5);
+ }
+
+ .position {
+     font-size: 20px;
+ }
+
+ em {
+     font-weight: bold;
+     font-style: normal;
+ }
+
+ img {
+     height: 250px;
+     width: 500px;
+ }
+
+ figure {
+    display: inline-block;
+    
+ }
+
+ figcaption{
+     text-align: center;
  }
  
 

@@ -4,8 +4,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <title>Allison Krinsky</title>
 </head>
 <body>
@@ -17,7 +15,7 @@
                   <a class="nav-link active" href="resume.html">Resume</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Project Page<span class="sr-only">(current)</span></a>
+                  <a class="nav-link active" href="index.html">Project Page</a>
                 </li>
             
               </ul>
@@ -38,9 +36,82 @@
     </div>
     </header>
     <main>
-        <h2>Xu Lab @ University of Washington</h2>
-        <a href="http://faculty.washington.edu/libinxu/ccs-database-ccsbase/">Lab Website</a>
-        <a href="https://ccsbase.net/">CCSBase</a>
+        <div class="card">
+            <h2>Xu Lab @ University of Washington</h2>
+            <section>
+                <h3>Summary</h3>
+                <p>
+
+                </p>
+            </section>
+            <section>
+                <h3>Data Analysis, Built Database, Data Mining</h3>
+                <div class="card-body">
+                    <p>
+                        Task: Parsed and cleaned data from various national molecule databases in order to retreive information necessary for machine learning models. Created SQL database to hold the characteristics of over 5 million molecules. 
+
+                        Lipydomics:
+                        - Use lipid class to predict the ccs value 
+
+                        CCSbase:
+                        - Use smiles structure to predict the ccs value
+
+                        Technologies: Python RDkit (Cheminformatics package), Sklearn, SQL
+                        
+                    </p>
+                    <figure>
+                        <img src="img/dmccs_pred.png" alt="dmccs prediction page">
+                        <figcaption>DMCCS Prediction Page</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/dmccs_result.png" alt="dmccs results page">
+                        <figcaption>DMCCS Prediction Results Page</figcaption>
+                    </figure>
+                    
+                    
+                </div>
+            </section>
+            <section>
+                <h3>Web Dev</h3>
+                <div class="card-body" style="display: block;">
+                    <div style="float: right;">
+                        <h4>User login and authentication</h4><br>
+                        <p>
+                            User Authentication for DMCCS page:
+                            - login page set up
+                            - email authentication
+                        </p>
+                    </div>
+                    
+                    <figure>
+                        <img  src="img/dmccs_login.png">
+                        <figcaption>DMCCS Login Page</figcaption>
+                    </figure>
+                    <h4>Data Mining</h4>
+                    <p>
+                        Data Mining :
+                        - Built in collection database to track what structures are being searched and by who
+                    </p>
+                    <figure style="float: right;">
+                        <img src="img/data_mining.png">
+                        <figcaption>Data Collection Page</figcaption>
+                    </figure>
+                    
+                    
+                </div>
+                
+            </section>
+            <section>
+                <h3>Machine Learning</h3>
+                <p>
+                    - Retraining the model with updated dataset
+                    - Running metrics to compare goodness of the new version model to the old version
+                </p>
+            </section>
+            <a href="http://faculty.washington.edu/libinxu/ccs-database-ccsbase/">Lab Website</a>
+            <a href="https://ccsbase.net/">CCSBase</a>
+        </div>
+        
 
 
     </main>
