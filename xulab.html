@@ -36,28 +36,84 @@
     </div>
     </header>
     <main>
-        <div class="card">
+        <div class="container">
+        
             <h2>Xu Lab @ University of Washington</h2>
-            <section>
+            <div class="card">
                 <h3>Summary</h3>
                 <p>
-
+                    I have been working at the Xu Lab, a UW biochemistry lab, since April, 2020. I was originally tasked with performing the data analytics and visualizations but my role grew as I took on new responsibilities in web development and machine learning. I learned Python’s Flask package and developed interactive web pages complete with data mining features for future analysis.
                 </p>
-            </section>
-            <section>
-                <h3>Data Analysis, Built Database, Data Mining</h3>
+                <a href="http://faculty.washington.edu/libinxu/ccs-database-ccsbase/" target="_blank">Visit Lab Website</a>
+
+            </div>
+            <div class="card">
+                <h3>Data Analysis & Database Management</h3>
                 <div class="card-body">
                     <p>
-                        Task: Parsed and cleaned data from various national molecule databases in order to retreive information necessary for machine learning models. Created SQL database to hold the characteristics of over 5 million molecules. 
+                        I parsed and cleaned data from various national molecule databases in order to retreive information necessary for machine learning models. Then, created a SQL database to hold the characteristics of over 5 million molecules. Using this database and our models, generated CCS values for reference. The CCSbase database predicts based on the molecule structure (SMI) and Lipydomics predicts using the lipid class, number of carbons and number of unsaturations. 
 
-                        Lipydomics:
-                        - Use lipid class to predict the ccs value 
+                       <br> <br>
 
-                        CCSbase:
-                        - Use smiles structure to predict the ccs value
-
-                        Technologies: Python RDkit (Cheminformatics package), Sklearn, SQL
+                        Technologies: Python RDkit (Cheminformatics package), SQL, Jupyter Notebook
                         
+                    </p>
+                    <figure>
+                        <img src="img/pred_db.png" alt="CCS Prediction Database">
+                        <figcaption>CCS Prediction Database</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/Lipy.png" alt="Lipydomics Prediction Database">
+                        <figcaption>Lipydomics Prediction Database</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Web Dev</h3>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            <h4>User login and authentication</h4>
+                            <p>
+                                I created an account system to track user inputs. Implementing a login with user authentication allows us to grant access to our propriatery DMCCS model to our consumers. 
+                            </p>
+                        </div>
+                        <div class="col">
+                            <figure>
+                                <img  src="img/dmccs_login.png">
+                                <figcaption>DMCCS Login Page</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">    
+                            <figure>
+                                <img src="img/data_mining.png">
+                                <figcaption>Data Collection Page</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col">
+                            <h4 style="text-align: right;">Data Mining</h4>
+                            <p>
+                                With an admin login, our lab members can access our list of users and what structures have been searched. Here, we can view or download the users information and recent structures in order to analyze what molecules are predicted more regularly so we can prioritize our database.
+                            </p>
+                        </div>
+                    </div>
+                    <p>
+                        Technologies: Python’s Flask, Django, SQL, HTML/CCS
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Machine Learning</h3>
+                <div class="card-body">
+                    <p>
+                        The <a href="http://ccsbase.net" target="_blank">CCSbase</a> model is used to replace experimental lab values with a theoretical value. Instead of performing an experiement to gather this information, we use the structure of the molecule to predict what that value would be. 
+                        
+                        <br> <br>
+                        My tasks thus far have consisted of retraining the model with the new data that I added to our database, and analyzing the goodness of the models in relation to one another.
+                        <br><br>
+                        Technologies: Sklearn, Pandas, Numpy, Matplotlib
                     </p>
                     <figure>
                         <img src="img/dmccs_pred.png" alt="dmccs prediction page">
@@ -67,49 +123,9 @@
                         <img src="img/dmccs_result.png" alt="dmccs results page">
                         <figcaption>DMCCS Prediction Results Page</figcaption>
                     </figure>
-                    
-                    
                 </div>
-            </section>
-            <section>
-                <h3>Web Dev</h3>
-                <div class="card-body" style="display: block;">
-                    <div style="float: right;">
-                        <h4>User login and authentication</h4><br>
-                        <p>
-                            User Authentication for DMCCS page:
-                            - login page set up
-                            - email authentication
-                        </p>
-                    </div>
-                    
-                    <figure>
-                        <img  src="img/dmccs_login.png">
-                        <figcaption>DMCCS Login Page</figcaption>
-                    </figure>
-                    <h4>Data Mining</h4>
-                    <p>
-                        Data Mining :
-                        - Built in collection database to track what structures are being searched and by who
-                    </p>
-                    <figure style="float: right;">
-                        <img src="img/data_mining.png">
-                        <figcaption>Data Collection Page</figcaption>
-                    </figure>
-                    
-                    
-                </div>
-                
-            </section>
-            <section>
-                <h3>Machine Learning</h3>
-                <p>
-                    - Retraining the model with updated dataset
-                    - Running metrics to compare goodness of the new version model to the old version
-                </p>
-            </section>
-            <a href="http://faculty.washington.edu/libinxu/ccs-database-ccsbase/">Lab Website</a>
-            <a href="https://ccsbase.net/">CCSBase</a>
+            </div>
+        
         </div>
         
 

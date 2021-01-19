@@ -3,10 +3,11 @@ h1{
     align-content: center;
     text-align: center;
     color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url('img/background.JPEG');
     height: 100%;
     background-position: center;
@@ -23,12 +24,12 @@ i {
 
  .card {
      padding: 8px;
-     background: rgba(243, 241, 241, 0.5);
+     background: rgba(243, 241, 241, 0.6);
      
  }
 
 #list-group-item {
-    background: rgba(243, 241, 241, 0.5);
+    background: rgba(243, 241, 241, 0.6);
  }
 
  .position {
