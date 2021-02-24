@@ -21,6 +21,10 @@ i {
     color: black;
 }
 
+.lines {
+    line-height: 75%;
+}
+
 
  .card {
      padding: 8px;
